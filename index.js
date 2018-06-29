@@ -8,5 +8,5 @@ updateObjectWithKeyAndValue(obj, 'prop2', 2)
 obj
 
 function destructivelyUpdateObjectWithKeyAndValue(obect, key, value){
-  
+  obj[key] = value
 }
