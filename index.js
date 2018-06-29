@@ -7,7 +7,7 @@ var obj = {prop : 1}
 updateObjectWithKeyAndValue(obj, 'prop2', 2)
 obj
 
-function destructivelyUpdateObjectWithKeyAndValue(object, key, value){
+function destructivelyUpdateObjectWithKeyAndValue(obj, key, value){
   obj[key] = value
   return obj
 }
