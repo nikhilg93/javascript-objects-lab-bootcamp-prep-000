@@ -9,4 +9,6 @@ obj
 
 function destructivelyUpdateObjectWithKeyAndValue(obect, key, value){
   obj[key] = value
+  return obj
 }
+v
