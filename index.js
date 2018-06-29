@@ -12,5 +12,5 @@ function destructivelyUpdateObjectWithKeyAndValue(obect, key, value){
   return obj
 }
 var obj = { prop: 1 }
-return destructivelyUpdateObjectWithKeyAndValue(obj, 'prop2', 2)
-
+destructivelyUpdateObjectWithKeyAndValue(obj, 'prop2', 2)
+ return obj
