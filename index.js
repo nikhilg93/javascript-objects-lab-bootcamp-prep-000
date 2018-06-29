@@ -13,4 +13,3 @@ function destructivelyUpdateObjectWithKeyAndValue(obect, key, value){
 }
 var obj = { prop: 1 }
 destructivelyUpdateObjectWithKeyAndValue(obj, 'prop2', 2)
-return obj
